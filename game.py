@@ -14,3 +14,7 @@ for i in range(3):
         print("Tails")
 
 print("Heads: " + str(heads) + ", Tails: " + str(tails))
+if heads > tails:
+    print("You won")
+else:
+    print("You lost")
