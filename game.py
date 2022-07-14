@@ -1,5 +1,9 @@
 import random
 
+print("Who are you?")
+name = input()
+print("Hello, " + name + "!");
+
 print("Tossing a coin...")
 heads = 0
 tails = 0
